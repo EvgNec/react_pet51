@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import AuthContext from "./AuthContext";
+import authContext from "./AuthContext";
 
 export class AuthProvider extends Component {
 state ={
@@ -15,9 +15,9 @@ state ={
 
   render() {
     return (
-      <AuthContext.Provider value={this.state}>
+      <authContext.Provider value={this.state}>
         {this.props.children}
-      </AuthContext.Provider>
+      </authContext.Provider>
     )
   }
 }
