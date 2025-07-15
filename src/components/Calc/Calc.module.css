@@ -1,0 +1,22 @@
+.scr {
+  tab-size: 24px;  
+}
+.btn {
+    background-color: #007bff;      /* синій фон */
+    color: white;                   /* білий текст */
+    padding: 10px 20px;             /* відступи */
+    border: none;                   /* без рамки */
+    border-radius: 6px;             /* скруглення */
+    cursor: pointer;                /* курсор рука */
+    font-size: 16px;                /* розмір тексту */
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;      /* темніший синій при наведенні */
+  }
+  
+  .btn:disabled {
+    background-color: #cccccc;      /* сірий фон */
+    cursor: not-allowed;            /* курсор заборонено */
+  }

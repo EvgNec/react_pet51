@@ -5,7 +5,7 @@ export const App = () => {
   return (
     <div>
     <UserMenu/>
-    <Calc startQty='5'/>
+    <Calc startQty={5}/>
     </div>
   );
 };
